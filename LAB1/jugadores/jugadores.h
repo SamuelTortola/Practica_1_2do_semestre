@@ -15,6 +15,10 @@ void jugador2 (uint8_t conteo2);
 
 void activacion (uint8_t activo);
 
+void reseteo_juego (uint8_t reset);
+
+
+
 
 
 

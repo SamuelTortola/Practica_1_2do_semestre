@@ -8,6 +8,7 @@ void conteo_regresivo(uint8_t activador)
 {
 	if(activador == 1)
 	{
+		reseteo_juego(1);
 		PORTD = lista[5];
 		_delay_ms(1000);
 		PORTD = lista[4];
@@ -22,7 +23,6 @@ void conteo_regresivo(uint8_t activador)
 		activador = 0;    //Desactivar cuenta regresiva
 		activacion(1);     //Activar el juego
 		PORTC = 0;
-		
 		
 	}
 }
